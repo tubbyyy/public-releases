@@ -19,7 +19,7 @@ local Mouse = LocalPlayer:GetMouse()
 local Camera = Workspace.CurrentCamera
 
 -- // Notification function
-function SendNotification(text, title, icon, time)
+function SaturnModule:SendNotification(text, title, icon, time)
     StarterGui:SetCore("SendNotification", {
         Title = title,
         Text = text,
