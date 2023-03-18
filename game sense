@@ -2885,7 +2885,7 @@ do
             function button:Open()
                 window:CloseContent()
                 button.open = not button.open
-                utility:LoadImage(button_image, "arrow_up", "https://i.imgur.com/SL9cbQp.png")
+                utility:LoadImage(button_image, "arrow_up", "https://s3.us-east-1.wasabisys.com/e-zimagehosting/355d08d7-9de9-4e2d-b336-b650388cf32d/2bima81e.png")
                 --
                 local button_open_outline = utility:Create("Frame", {Vector2.new(0,21), button_outline}, {
                     Size = utility:Size(1, 0, 0, 3 + (#button.options * 19), button_outline),
@@ -4860,7 +4860,7 @@ do
                     if not dropdown.open then
                         window:CloseContent()
                         dropdown.open = not dropdown.open
-                        utility:LoadImage(dropdown_image, "arrow_up", "https://i.imgur.com/SL9cbQp.png")
+                        utility:LoadImage(dropdown_image, "arrow_up", "https://s3.us-east-1.wasabisys.com/e-zimagehosting/355d08d7-9de9-4e2d-b336-b650388cf32d/2bima81e.png")
                         --
                         local dropdown_open_outline = utility:Create("Frame", {Vector2.new(0,19), dropdown_outline}, {
                             Size = utility:Size(1, 0, 0, 3 + ((max and max or #dropdown.options) * 19), dropdown_outline),
@@ -5212,7 +5212,7 @@ do
                     if not multibox.open then
                         window:CloseContent()
                         multibox.open = not multibox.open
-                        utility:LoadImage(multibox_image, "arrow_up", "https://i.imgur.com/SL9cbQp.png")
+                        utility:LoadImage(multibox_image, "arrow_up", "https://s3.us-east-1.wasabisys.com/e-zimagehosting/355d08d7-9de9-4e2d-b336-b650388cf32d/2bima81e.png")
                         --
                         local multibox_open_outline = utility:Create("Frame", {Vector2.new(0,19), multibox_outline}, {
                             Size = utility:Size(1, 0, 0, 3 + (#multibox.options * 19), multibox_outline),
