@@ -5188,7 +5188,6 @@ local GameName = game:GetService("MarketplaceService"):GetProductInfo(game.Place
         --
         function listbox:set(value, internal)
             for _, toset in ipairs(value) do
-                print(toset[2])
                 if not self.buttons[toset[2]] or self.buttons[toset[2]].Text ~= toset[1] then
                     if not self.buttons[1] then
                         return
