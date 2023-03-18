@@ -507,10 +507,10 @@ do
                         config[i] = v:get()
                     end
                 end
-            end) --then
-                --print("BROOOOOO WHAT")
-                --table.foreach(v, print)
-            --end
+            end) then
+                print("BROOOOOO WHAT")
+                table.foreach(v, print)
+            end
             --
             return hs:JSONEncode(config)
         end
